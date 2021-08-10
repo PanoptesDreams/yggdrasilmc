@@ -1,5 +1,4 @@
-# Welcome to Yggdrasil!
-## (or at least our GitHub Repo)
+# Welcome to Yggdrasil! (or at least our GitHub Repo)
 
 Players goto yggdrasilmc.com (you probably don't need to be here)
 
