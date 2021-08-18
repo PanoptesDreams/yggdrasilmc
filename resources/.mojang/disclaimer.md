@@ -1,0 +1,1 @@
+The contents of this folder are the property of Mojang and are here only for reference purposes
