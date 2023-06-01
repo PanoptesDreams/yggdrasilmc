@@ -1,0 +1,28 @@
+{
+  "allowMovement": {
+    "net.minecraft.class_434": true,
+    "fi.dy.masa.malilib.MaLiLibConfigGui": true,
+    "me.fallenbreath.tweakermore.gui.TweakerMoreConfigGui": true,
+    "net.minecraft.class_433": true,
+    "io.github.bumblesoftware.fastload.client.BuildingTerrainScreen": true,
+    "com.mamiyaotaru.voxelmap.persistent.GuiPersistentMap": true,
+    "me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI": true,
+    "com.mamiyaotaru.voxelmap.gui.GuiMinimapOptions": true,
+    "ellemes.expandedstorage.common.client.gui.FakePickScreen": true,
+    "ellemes.expandedstorage.common.client.gui.SingleScreen": true,
+    "net.minecraft.class_5522": true,
+    "net.combatroll.client.gui.ConfigMenuScreen": true,
+    "me.shedaniel.clothconfig2.gui.ClothConfigScreen": true,
+    "com.terraformersmc.modmenu.gui.ModsScreen": true,
+    "com.hammy275.immersivemc.client.config.screen.ConfigScreen": true,
+    "eu.midnightdust.lib.config.MidnightConfig$MidnightConfigScreen": true,
+    "dev.isxander.debugify.client.gui.NoYACLScreen": true,
+    "com.redlimerl.detailab.screen.OptionsScreen": true,
+    "team.creative.creativecore.client.ModMenuImpl$1": true
+  },
+  "hideBackground": {
+    "ellemes.expandedstorage.common.client.gui.FakePickScreen": true,
+    "ellemes.expandedstorage.common.client.gui.SingleScreen": true,
+    "net.minecraft.class_5522": true
+  }
+}

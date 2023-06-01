@@ -1,0 +1,78 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				axolotl = true
+				bee = true
+				arrow = true
+				trader_llama = true
+				cow = true
+				chest_minecart = true
+				magma_cube = true
+				tropical_fish = true
+				pig = true
+				slime = true
+				skeleton = true
+				iron_golem = true
+				bat = true
+				zombified_piglin = true
+				piglin = true
+				hoglin = true
+				cat = true
+				zombie = true
+				drowned = true
+				sheep = true
+				experience_orb = true
+				player = true
+				dolphin = true
+				item = true
+				turtle = true
+				wolf = true
+				villager = true
+				salmon = true
+				wandering_trader = true
+				zombie_villager = true
+				tnt_minecart = true
+				piglin_brute = true
+				strider = true
+				painting = true
+				cod = true
+				glow_squid = true
+				witch = true
+				glow_item_frame = false
+				squid = true
+				spider = true
+				creeper = true
+				enderman = true
+
+			[light_sources.settings.entities.immersive_portals]
+				nether_portal_new = true
+				loading_indicator = true
+
+			[light_sources.settings.entities.handcrafted]
+				seat = true
+
+			[light_sources.settings.entities.tinyskeletons]
+				baby_skeleton = true
+
