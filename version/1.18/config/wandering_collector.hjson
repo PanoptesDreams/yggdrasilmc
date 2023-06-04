@@ -1,0 +1,40 @@
+{
+	// Include manually dropped items in the Wandering Trader offers
+	// default: false
+	include-dropped-stacks: false
+	// The maximum number of stacks that get remembered after loosing them
+	// default: 64
+	// 	Must be greater or equal to 0
+	max-lost-stack-amount: 64
+	// The number of buy-back trades Wandering Traders will offer
+	// default: 2
+	// 	Must be greater or equal to 0
+	buy-back-trades: 2
+	default-prices: {
+		// The minimum emerald price to buy back a stack
+		// default: 32
+		// 	Must be inclusively between 1 and 64
+		min-price: 32
+		// The maximum emerald price to buy back a stack
+		// default: 64
+		// 	Must be inclusively between 1 and 64
+		max-price: 64
+		// The item that must be paid with for the trade offer
+		// default: minecraft:emerald
+		// 	Must be a valid identifier and be present in the following registry: minecraft:item
+		price-item: minecraft:emerald
+		// Whether the price will be scaled with the amount of items in the stack.
+		// default: true
+		scale-price-with-count: true
+		// The minimum percentage that scale-price-with-amount will scale to.
+		// default: 0.3
+		// 	Must be inclusively between 0.0 and 1.0
+		min-price-scale: 0.30000001192092896
+	}
+	// Defines in which order lost stacks will be used for the Wandering Traders' offers. - NEWEST: The newest lost stacks will be used first. - OLDEST: The oldest lost stacks will be used first. - RANDOM: Lost stacks will be used in a random order.
+	// default: RANDOM
+	offer-creation: RANDOM
+	// Lost stacks that are stackable will be tried to be merged into existing stacks
+	// default: true
+	combine-lost-stacks: true
+}

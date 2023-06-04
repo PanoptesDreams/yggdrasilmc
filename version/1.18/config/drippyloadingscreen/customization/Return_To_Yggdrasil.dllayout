@@ -1,0 +1,39 @@
+type = hud
+
+customization-meta {
+  fadeout = false
+  randomgroup = 1
+  keepaspectratio = true
+  backgroundimage = splash/cavesandcliffs.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 66023C
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  visible = false
+  action = editprogressbar
+  y = -25
+  barcolor = 290A1A
+}
+
+customization {
+  orientation = top-left
+  bartexture = splash/progressbar.png
+  x = 119
+  width = 242
+  actionid = 9c7512cd-3924-4fd9-833a-9ed61e0f06681671853477672
+  y = 219
+  action = addcustomprogressbar
+  height = 9
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+
